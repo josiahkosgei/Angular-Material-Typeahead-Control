@@ -5,6 +5,6 @@ Angular Material Typeahead Control
 * Angular 6 
 * Angular Material
 
--
+
 ![](images/typeahead003.JPG?raw=true)
 
