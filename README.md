@@ -5,7 +5,6 @@ Angular Material Typeahead Control
 * Angular 6 
 * Angular Material
 
-You can select a region (e.g EMEA, AMER, APAC) or specific country
 
 # Angular Material Typeahead Control
 -
