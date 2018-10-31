@@ -1,0 +1,136 @@
+.demo-chip-list {
+    width: 100%;
+  }
+  
+  
+  :host ::ng-deep  .mat-autocomplete-panel.mat-autocomplete-visible {
+    box-shadow: none;
+    background-color: transparent;
+    position: relative;
+    bottom: 40.2px;
+    right: 16px;
+  }
+  .input-default {
+    width: 100%;
+  }
+  
+  .input-styling {
+    // border: 2px solid $primary-color ;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    // z-index: 1000;
+  }
+  
+  // :host ::ng-deep .mat-focused {
+  //   .input-styling {
+  //     border: 2px solid $primary-color;
+  //   }
+  // }
+  
+  :host ::ng-deep .mat-form-field.input-default .mat-form-field-underline {
+    display: none;
+  }
+  
+  :host ::ng-deep .mat-option.mat-icon {
+    height: 35px;
+  }
+  
+  .flag {
+    height: 35px;
+  }
+  
+  .remove-item {
+    color: red;
+    line-height: 14px;
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    cursor: pointer; 
+  }
+  
+  .custom-tag {
+    background-color:#f6f6f6;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding-right: 15px;
+    margin: 5px;  
+    display: inline-block; 
+  }
+  
+  .chip-list {
+    width: 100%;
+  }
+  
+  .matinput-userinput {
+    font-weight: bold;
+    & > input {
+      margin: 5px;
+    }
+    & > mat-placeholder{
+      color: #d3d3d3;
+      padding-left: 15px;
+      font-weight: 500; 
+    }
+  }
+  
+  .matinput-suggestion {
+    color: #9e9b9b;
+    position: absolute;
+    top: 12.9px;
+    font-weight: 600;
+    padding-left: 5px;    
+    white-space: pre;
+    & > span:first-child {
+      visibility: hidden;
+    }
+  }
+  
+  .placeholder {
+    padding-left: 10px;
+    color: #d3d3d3;
+    font-weight: 600;
+  }
+  
+  .mat-focused .placeholder // :host ::ng-deep .input-default.input-styling.mat-focused.mat-form-field .mat-form-field-label-wrapper #
+  {
+      display: none;
+  }
+  
+  .input-scroll {
+    max-width: 430px;
+    max-height: 35px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  //   display: inline-block;
+  //   background: red;
+    white-space:  nowrap;
+    margin-left:  10px;
+    // margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+  }
+  .input-scroll::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+  
+  .input-scroll::-webkit-scrollbar:horizontal {
+      height: 2px;
+  }
+  
+  .input-scroll::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      border: 2px solid grey;
+      background-color: rgba(0, 0, 0, .5);
+  }
+  .input-scroll::-webkit-scrollbar-track { 
+      background-color: purple; 
+      border-radius: 8px; 
+  }
+  .matinput-suggestion-overide {
+    top: 18.5px;
+  }
+  :host ::ng-deep .mat-chip-list-wrapper {
+    margin: 0px;
+  }
