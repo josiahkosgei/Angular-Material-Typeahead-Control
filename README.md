@@ -1,4 +1,4 @@
-# Angular-Material-Typeahead-Control
+# Angular-Material-Typeahead-Control POC
 Angular Material Typeahead Control
 
 * Typescript
@@ -8,5 +8,5 @@ Angular Material Typeahead Control
 
 # Angular Material Typeahead Control
 -
-![](images/typeahead004.JPG?raw=true)
+![](images/typeahead003.JPG?raw=true)
 
